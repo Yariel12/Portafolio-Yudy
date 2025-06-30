@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn-descargar {
+  background-color: #0047ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.btn-descargar:hover {
+  background-color: #0035c4;
+}
+
+.seccion h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.izquierda {
+  flex: 1 1 40%;
+}
+
+.derecha {
+  flex: 1 1 60%;
+}
+
+.fecha {
+  color: #0047ff;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.puesto {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #333;
+}
